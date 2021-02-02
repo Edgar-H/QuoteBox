@@ -33,7 +33,7 @@ const QuoteBox = () => {
         </div>
         <div className="btns">
           <input type="button" value="New Quote" onClick={QuoteApi}></input>
-          <a href={`https://twitter.com/intent/tweet?text=${quote} ~${author}`} className="tweet" target="_blank">Tweet</a>
+          <a href={`https://twitter.com/intent/tweet?text=${quote} ~${author}`} className="tweet" target="_blank" rel="noopener noreferrer">Tweet</a>
         </div>
     </div>
   )
