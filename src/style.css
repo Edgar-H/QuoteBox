@@ -72,4 +72,14 @@
   padding: 0 80px;
   margin-top: 20px;
 }
+
+@media screen and (max-width: 670px) {
+  .box {
+    width: 80%;
+  }
+  .btns {
+    padding: 0 8px;
+    margin-top: 20px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
