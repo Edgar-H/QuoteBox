@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.App {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  background: #214151;
+}
+
+.box {
+  position: absolute;
+  background: #d4d4d4;
+  width: 600px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  margin: auto;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.box div p {
+  font-size: 18px;
+  color: #585858;
+  font-weight: 500;
+  text-align: center;
+}
+
+.box div p + p {
+  font-size: 16px;
+  color: #707070d2;
+  margin-top: 10px;
+}
+
+.box div input {
+  background: #fb117e;
+  border: none;
+  padding: 6px 15px;
+  border-radius: 8px;
+  color: #e7e7e7;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.box div a {
+  text-decoration: none;
+  background: #1a91da;
+  padding: 6px 15px;
+  border-radius: 8px;
+  color: #e7e7e7;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 80px;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=style.css.map */
